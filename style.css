@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  height: 150%;
+  width: 100%;
+
+  position: relative;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  height: 13%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+.outrasPages {
+  color: rgb(188, 188, 188);
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: rgb(246, 246, 246);
+  width: 100%;
+  height: 110%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#linksPages {
+  font-size: 85%;
+  font-weight: 900;
+  cursor: pointer;
+}
+.linksPages {
+  padding: 5% 0%;
+  margin-right: 3%;
+  margin-left: 5%;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+#globo {
+  color: rgb(0, 30, 223);
+}
+#globo:hover {
+  opacity: 0.4;
+}
+
+#g1 {
+  color: #c4170c;
+}
+
+#g1:hover {
+  border-top-style: solid;
+  border-width: 2px;
+  border-radius: 2px;
+  border-top-color: rgb(255, 0, 0);
+}
+
+#ge {
+  color: #06aa48;
+}
+
+#ge:hover {
+  border-top-style: solid;
+  border-radius: 2px;
+  border-width: 2px;
+  border-top-color: rgb(2, 168, 2);
+}
+
+#gshow {
+  color: #ff6700;
+}
+
+#gshow:hover {
+  border-top-style: solid;
+  border-radius: 2px;
+  border-width: 2px;
+  border-top-color: orange;
+}
+
+#gplay {
+  color: #fb0234;
+}
+#gplay:hover {
+  border-top-style: solid;
+  border-radius: 2px;
+  border-width: 2px;
+  border-top-color: orangered;
+}
+
+.cabeçalho {
+  height: 170%;
+  width: 100%;
+  position: relative;
+  padding-left: 3.2%;
+  padding-right: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 197, 24);
+}
+
+.btn {
+  height: 50%;
+  width: 5%;
+  font-size: 100%;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(7, 124, 7);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
+.me {
+  color: rgb(7, 124, 7);
+  margin-top: -1%;
+  margin-right: 1%;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 800;
+  cursor: pointer;
+  margin-top: -0.5%;
+  margin-left: 10%;
+  color: rgb(7, 124, 7);
+}
+
+.box-login {
+  width: 35%;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#assine {
+  font-size: 80%;
+  font-weight: 300;
+  margin-top: 1%;
+  padding-left: 70%;
+  cursor: pointer;
+  color: rgb(93, 93, 93);
+}
+
+#assine:hover {
+  color: rgb(21, 21, 255);
+}
+
+#entrar {
+  width: 15%;
+  height: 90%;
+  border-right: 1.5px;
+  border-left: 1.5px;
+  border-top: 0px;
+  border-bottom: 1.7px;
+  border-radius: 4px;
+  box-shadow: inset 0px -0.5px 1px 0px rgb(10 9 9);
+  cursor: pointer;
+}
+
+#entrar:hover {
+  color: rgb(21, 21, 255);
+}
+
+#entrar:active {
+  opacity: 0.5;
+}
+
+.box-input {
+  display: flex;
+  justify-content: center;
+  height: 60%;
+  width: 15%;
+  margin-top: 2%;
+  margin-right: -3.3%;
+  margin-left: 4%;
+}
+
+.icone {
+  height: 21px;
+  color: #fff;
+  margin-right: -51%;
+  margin-top: -1%;
+  z-index: 1;
+}
+input {
+  font-size: 13px;
+  font-weight: 800;
+  border-radius: 4px;
+  padding-left: 15%;
+  height: 65%;
+  width: 60%;
+  margin-top: -3%;
+  margin-left: 40%;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.15);
+  outline: 0;
+  color: #fff;
+}
+
+input:focus {
+  width: 95%;
+  transition: 0.3s;
+  margin-left: 0px;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+.gif {
+  width: 35%;
+  margin-top: 8.5%;
+  margin-left: 33%;
+  cursor: pointer;
+}
+
+main {
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgFundo {
+  height: 100%;
+  width: 95%;
+  margin-top: 1.5%;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  border-radius: 6px;
+}
+
+#imgFundo {
+  width: 100%;
+  height: 120%;
+  object-fit: fill;
+  filter: brightness(60%);
+}
+
+#imgFundo:hover {
+  transform: scale(1.1);
+  transition: all 0.8s;
+}
+
+.jogosDoDia {
+  width: 92%;
+  height: 15%;
+  margin-top: 36%;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+}
+
+.boxJogos {
+  width: 15%;
+  height: 100%;
+  color: #fff;
+  font-weight: 900;
+  border-radius: 5px;
+  padding-left: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.boxh2 {
+  width: 101%;
+  margin-left: 10%;
+  position: absolute;
+}
+
+h2 {
+  height: 32%;
+  margin-top: -41px;
+  margin-right: 55%;
+  color: #fff;
+  color: #fff;
+  font-weight: 900;
+  position: absolute;
+}
+
+h2:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 12px;
+}
+
+#agenda:hover {
+  text-decoration: underline;
+}

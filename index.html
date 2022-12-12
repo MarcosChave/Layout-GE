@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./assets/geicon.png" />
+    <title>ge.globo</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="outrasPages">
+          <div id="linksPages">
+            <a class="linksPages" id="globo">globo.com</a>|<a
+              id="g1"
+              href="https://g1.globo.com/"
+              class="linksPages"
+              >g1</a
+            >|<a id="ge" class="linksPages">ge</a>|<a
+              id="gshow"
+              class="linksPages"
+              >gshow</a
+            >|<a id="gplay" class="linksPages">globoplay</a>
+          </div>
+
+          <div class="box-login">
+            <a id="assine">ASSINE JÁ</a>
+            <button id="entrar">ENTRAR ></button>
+          </div>
+        </div>
+
+        <div class="cabeçalho">
+          <button class="btn"><i class="fa fa-bars me"></i>MENU</button>
+
+          <a class="logo">ge</a>
+
+          <div class="box-input">
+            <i class="fa fa-search icone"></i>
+            <input type="search" placeholder="BUSCAR" />
+          </div>
+        </div>
+      </header>
+      <main>
+        <div>
+          <img class="gif" src="./assets/gif.gif" />
+        </div>
+
+        <div class="imgFundo">
+          <img class="trocaImg" id="imgFundo" src="./assets/croaciaxbel.jpg" />
+        </div>
+
+        <div class="jogosDoDia">
+          <div class="boxh2">
+            <h2 class="h2">Bélgica fica só no empate e está fora da copa :</h2>
+          </div>
+
+          <div
+            class="boxJogos"
+            onclick="trocaImagem('./assets/croaciaxbel.jpg'); trocaText('Bélgica fica só no empate e está fora da copa :')"
+          >
+            CRO 0 <br />BEL 0
+            <p>Encerrado</p>
+          </div>
+
+          <div
+            class="boxJogos"
+            onclick="trocaImagem('./assets/crcxale.jpg'); trocaText('Alemanha tenta avançar às oitavas :')"
+          >
+            CRC <br />ALE
+            <p>Pré-jogo</p>
+          </div>
+
+          <div
+            class="boxJogos"
+            onclick="trocaImagem('./assets/japxesp.jpg'); trocaText('Japão tenta avançar como primeiro do Grupo E:')"
+          >
+            JAP <br />
+            ESP
+            <p>Pré-jogo</p>
+          </div>
+
+          <div
+            class="boxJogos"
+            onclick="trocaImagem('./assets/canxmar.jpeg');trocaText('Marrocos vence e faz história :')"
+          >
+            CAN 1 <br />
+            MAR 2
+            <p>Encerrado</p>
+          </div>
+
+          <a id="agenda" class="boxJogos">
+            Veja a <br />
+            agenda<br />
+            completa :
+          </a>
+        </div>
+      </main>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
